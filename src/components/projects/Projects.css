@@ -1,0 +1,35 @@
+.project{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* heading */
+.project span:nth-last-of-type(1){
+    font-size: 5rem;
+}
+.project span:nth-last-of-type(2){
+    font-size: 4rem;
+}
+
+/* slider */
+
+.project .swiper{
+    overflow: visible!important;
+}
+
+.project-slider{
+margin-top: 3rem;
+width: 100%;
+}
+.project-slider .swiper-slide{
+    width: 20rem;
+}
+
+.project img{
+    width: 19rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0 ,0 ,0 , 0.25));
+    border-radius: 19px;
+} 
